@@ -9,7 +9,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 export default defineConfig(() => {
   return {
     // Relative base path allows deployment to any subdirectory (e.g. GitHub Pages /PTBA/)
-    base: './',
+    base: '/redactionptba/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
