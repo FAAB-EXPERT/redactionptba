@@ -1,0 +1,6 @@
+{
+  "name": "Plan de Travail & de Budget Annuel (PTBA)",
+  "description": "Plateforme de gestion et pilotage stratégique de Plan de Travail et de Budget Annuel (PTBA), suivi GAR, EVM (Valeur Acquise), passation des marchés et planification Kanban/Gantt.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
