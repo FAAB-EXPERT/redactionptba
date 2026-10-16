@@ -9,7 +9,6 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 export default defineConfig(() => {
   return {
     base: '/redactionptba/',
-    // On retire la ligne "build: { outDir: 'docs' }" pour laisser Vite utiliser son dossier par défaut ("dist")
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
