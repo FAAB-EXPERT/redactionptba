@@ -30,10 +30,10 @@ jobs:
           node-version: 22
 
       - name: Installation des dépendances
-        run: npm install --legacy-peer-deps
+        run: npm install --include=dev --legacy-peer-deps
 
       - name: Compilation du projet (Vite Build)
-        run: npm run build
+        run: npx vite build
 
       - name: Configuration de GitHub Pages
         uses: actions/configure-pages@v4
